@@ -1,0 +1,7 @@
+impala
+
+Create databases and tables, insert small amounts of data, and run simple queries using Impala
+
+docker run -d --name kudu-impala -p 21000:21000 -p 21050:21050 -p 25000:25000 -p 25010:25010 -p 25020:25020 apache/kudu:impala-latest impala
+
+docker exec -it kudu-impala impala-shell

@@ -1,0 +1,22 @@
+scala
+
+Write a simple program in SCALA using Apache Spark framework
+
+java -version
+
+sudo apt-get update 
+sudo apt-get install default-jdk
+
+sudo apt-get install scala
+scala –version
+
+object Hello {
+    def main(args: Array[String]) = {
+        println("Hello, world")
+    }
+}
+
+
+scalac HelloWorld.scala
+scala HelloWorld
+scala Hello
